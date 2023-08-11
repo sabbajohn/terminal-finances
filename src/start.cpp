@@ -13,7 +13,7 @@ void Start::m_run( QStringList files ){
         if( QDir().mkpath( userdir ) ){
             if( QFile::copy( absolute_dir_filedb , user_filedb ) ){
                 if( ! file.setPermissions( QFile::ReadOwner|QFile::WriteOwner )  ){
-                    qDebug() << v.m_msg[62];
+                    qDebug() << v.m_msg[67];
                 }
             }
         }
@@ -22,7 +22,7 @@ void Start::m_run( QStringList files ){
     if( ! localdb.exists() ){
         if( QFile::copy( absolute_dir_filedb , user_filedb ) ){
             if( ! file.setPermissions( QFile::ReadOwner|QFile::WriteOwner )  ){
-                qDebug() << v.m_msg[62];
+                qDebug() << v.m_msg[67];
             }
         }
      }

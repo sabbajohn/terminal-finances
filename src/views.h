@@ -43,16 +43,25 @@ public:
                                 tr("<h2>Terminal Finances 1.0.0</h2><p>Desenvolvido por Marcos Oliveira<br>Copyright 2021 Terminal Root Sistemas Inc.</p><p><a style='color:#17a2b8;font-weight:bold;' href='https://terminalroot.com.br/cpp/'>terminalroot.com.br</a></p><hr><p><i>The program is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.</i></p><br>"),
                                 tr("Exportar Banco de Dados"),
                                 tr("Banco de dados exportado com sucesso!"),
+                                // Créditos Index 37 - 43
+                                tr("DropCommerce Inc"),
+                                tr("Faives LTDA"),
+                                tr("Outros"),
                                 tr("Salário"),
                                 tr("Décimo Terceiro"),
                                 tr("Férias"),
                                 tr("Renda extra"),
+                                // Créditos End
+                                // Debitos Index 44 - 51
+                                tr("Aluguel"),
+                                tr("Candominio"),
                                 tr("Conta de Luz"),
-                                tr("Conta de Água"),
                                 tr("Alimentação"),
                                 tr("Pagamentos"),
                                 tr("Telefone"),
                                 tr("Internet"),
+                                tr("Outros"),
+                                // Debitos
                                 tr("Erro ao remover o arquivo anterior."),
                                 tr("Erro ao criar arquivo"),
                                 tr("Não foi possível criar o arquivo."),

@@ -28,7 +28,7 @@ void UpdateFields::on_button_edit_balance_clicked(){
     if( m.m_update( fields ) ){
         this->close();
     }else{
-        QMessageBox::critical( this, v.m_msg[14], v.m_msg[75] );
+        QMessageBox::critical( this, v.m_msg[14], v.m_msg[80] );
         this->close();
     }
 
@@ -38,13 +38,13 @@ void UpdateFields::on_pushButton_clicked(){
     Views v;
     Model m;
     QMessageBox::StandardButton reply;
-      reply = QMessageBox::question(this, v.m_msg[6], v.m_msg[76] + ui->label_id->text() + "?",
+      reply = QMessageBox::question(this, v.m_msg[6], v.m_msg[81] + ui->label_id->text() + "?",
       QMessageBox::Yes|QMessageBox::No);
       if (reply == QMessageBox::Yes) {
         if( m.m_delete( ui->label_id->text() ) ){
             this->close();
         }else{
-            QMessageBox::critical( this, v.m_msg[14], v.m_msg[75] );
+            QMessageBox::critical( this, v.m_msg[14], v.m_msg[80] );
             this->close();
         }
 
