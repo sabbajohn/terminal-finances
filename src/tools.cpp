@@ -48,7 +48,7 @@ QString Tools::m_rm_semidot(QString str ){
 QStringList Tools::m_all_months(){
     Views v;
     QStringList r;
-    for( int i = 63; i <= 74; ++i ){
+    for( int i = 68; i <= 79; ++i ){
         r << v.m_msg[i];
     }
     return r;

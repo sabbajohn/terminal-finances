@@ -27,13 +27,13 @@ const QString GenDoc::m_gen_tags( QStringList result ){
                      "<table class='table table-bordered'>"
             "<thead>"
                      "<tr><th colspan='6'><h2>" + combo_month.toUpper() + " " + combo_year.toUpper() + "</h2></th></tr>"
-                     "<tr><th colspan='2'>" + v.m_msg[51] + z.m_currency.leftJustified(6, ' ') + " <strong class='success'>" + t.m_currency( total_cred ) + "</strong> </th>"
-                     "<th colspan='1'>" + v.m_msg[52] + z.m_currency.leftJustified(6, ' ') + " <strong class='danger'>" + t.m_currency( total_deb ) + "</strong> </th> "
-                     "<th colspan='3' class='text-center'>" + v.m_msg[53] + z.m_currency.leftJustified(6, ' ') + " <strong style='color: " + balance_color + "'>" + t.m_currency( balance_string ) + "</strong></th>"
+                     "<tr><th colspan='2'>" + v.m_msg[56] + z.m_currency.leftJustified(6, ' ') + " <strong class='success'>" + t.m_currency( total_cred ) + "</strong> </th>"
+                     "<th colspan='1'>" + v.m_msg[57] + z.m_currency.leftJustified(6, ' ') + " <strong class='danger'>" + t.m_currency( total_deb ) + "</strong> </th> "
+                     "<th colspan='3' class='text-center'>" + v.m_msg[58] + z.m_currency.leftJustified(6, ' ') + " <strong style='color: " + balance_color + "'>" + t.m_currency( balance_string ) + "</strong></th>"
                          "<tr>"
-                             "<th>" + v.m_msg[54] + "</th>"
+                             "<th>" + v.m_msg[59] + "</th>"
                              "<th>" + v.m_msg[28] + "</th>"
-                             "<th>" + v.m_msg[55] + "</th>"
+                             "<th>" + v.m_msg[60] + "</th>"
                              "<th>" + v.m_msg[27] + "</th>"
                              "<th>" + v.m_msg[25] + "</th>"
                              "<th>" + v.m_msg[24] + "</th>"
@@ -53,11 +53,11 @@ void GenDoc::m_set_t(){
 const QStringList GenDoc::m_gen_color(){
     Views v;
     const QStringList r = {
-                           "#1e7e34", v.m_msg[56], v.m_msg[57],
+                           "#1e7e34", v.m_msg[61], v.m_msg[62],
                            "color:#00b5ad;text-align:center;",  "#57B4C0",
-                           v.m_msg[58], v.m_msg[59],
+                           v.m_msg[63], v.m_msg[64],
                            "color: #2D3037;text-align:center;", "#a71d2a",
-                           v.m_msg[60] , v.m_msg[61],
+                           v.m_msg[65] , v.m_msg[66],
                            "color: #ef325a;text-align:center;"
                           };
     return r;
